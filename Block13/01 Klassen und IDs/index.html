@@ -1,0 +1,86 @@
+<html>
+	<head>
+		<title>Klassen und IDs</title>
+		<style>
+			/* Universalselektor */
+			* {
+				margin-bottom: 10px;
+				color:black;
+			}
+
+			h2 {
+				margin-top: 500px;
+			}
+
+			/* Typselektor */
+			div {
+				height: 100px;
+				width: 100px;
+				background: lightblue;
+			}
+
+			/* Klassenselektor */
+			.beispiel {
+				background: grey;
+			}
+
+			/* ID-Selektor */
+			#beispiel {
+				background: orange;
+			}
+
+
+			#liste {
+				font-size: 20px;
+			}
+
+			#liste>li {
+				color: red;
+			}
+
+			/* Nachkommenselektor */
+			.box .meldung {
+				background: red;
+			}
+		</style>
+	</head>
+	<body>
+
+		<h1>Beispiel - CSS Selektoren</h1>
+		<p>Liste mit Selektoren in Buch S. 243</p>
+		<p>Übung Online auf selfhtml: https://wiki.selfhtml.org/wiki/CSS/Selektoren/Klassenselektor</p>
+
+		<h2>Typselektor</h2>
+		<div></div>
+		<div></div>
+		<div></div>
+
+
+		<h2>Klassenselektor</h2>
+		<div class="beispiel"></div>
+
+		
+		<h2>ID-Selektor</h2>
+		<div id="beispiel"></div>
+
+		<h2>Kindselektor</h2>
+		<ul id="liste">
+			<li>Text1</li>
+			<li>Text2
+				<ul>
+					<li>Text1</li>
+					<li>Text2</li>
+					<li>Text3</li>
+				</ul>
+			</li>
+			<li>Text3</li>
+		</ul>
+
+
+		<h2>Nachkommenselektor</h2>
+		<div class="box">
+			<div class="meldung">Meldung</div>
+		</div>
+
+	</body>
+</html>

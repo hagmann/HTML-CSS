@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style>
+
+	/* Spezifischere Definitionen haben Vorrang. Möchte man ein bestehendes Element überschreiben, so muss mindestens die Selbe Spezifität gewährleistet sein. */
+
+	body {
+		font-size: 1.5rem;
+	}
+
+	main .content {
+		color: black;
+	}
+
+
+	/* Funktioniert nicht */
+	.content {
+		color:red;
+	}
+
+	/* Funktioniert */
+	main .content {
+		color: blue;
+	}
+
+	/* !important ermöglicht ein Überschreiben, auch wenn das Element weniger Spezifisch ist. */
+	
+	.content {
+		color: orange !important;
+	}
+
+
+
+	/* Für eine mobile first Umsetzung werden Media-Queries immer am Ende definiert, damit dann Eigenschaften für Tablet und Desktop sauber definiert werden können (Überschreibung Standard Eigenschaft für mobile) */
+
+</style>
+<body>
+
+<main>
+	<header>
+		<h1>Titel</h1>
+	</header>
+	<div class="content">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt eveniet architecto quod quo sed, quas veniam tempore maxime, error praesentium, nisi! Cum repellendus debitis voluptate suscipit, corporis repudiandae harum alias?
+	</div>
+	<footer>
+		Footer Text
+	</footer>
+</main>
+</body>
+</html>

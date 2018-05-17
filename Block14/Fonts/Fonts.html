@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Fonts</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700" rel="stylesheet">
+<style>
+	html, body {
+		/*font-size: 12px;*/
+		font-family: 'Roboto', Arial, sans-serif;
+	}
+
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Roboto Slab', monospace;
+		font-weight: 700;
+		font-weight: bold;
+		/*text-transform: uppercase;
+		border-bottom: 2px solid black;
+		letter-spacing: 1px;
+		text-shadow: 1px 1px 1px gray;*/
+	}
+	
+	h1 {
+		font-size: 40px;
+	}
+	
+	h2 {
+		font-size: 35px;
+	}
+	
+	p {
+		line-height: 1.5;
+	}
+
+	.large {
+		font-size: 1.5rem;
+	}
+
+	.gross {
+		font-size: 110%;
+	}
+	
+	.rem {
+		font-size: 1.5rem;
+	}
+
+	.em {
+		font-size: 1.5em;
+	}
+</style>
+</head>
+
+<body>
+
+
+<h1>Übung - Google Fonts einbinden</h1>
+<span>Buch S.274</span>
+
+
+<h2>font-family</h2>
+<p>Die Schrfit wurde per CSS importiert und über font-family zugewiesen.</p>
+
+<br>
+
+<h2>font-size</h2>
+<p class="gross">Dieser Absatz hat eine prozentuale Schriftgrösse.</p>
+
+<p class="rem">Dieser Absatz ist direkt im body-Element und hat eine Schriftgrösse von 1.5rem.</p>
+
+<div class="large">
+	<p class="em">Dieser Absatz hat eine Schriftgrösse von 1.5em und ist einem DIV-Container mit grösserer Schrift untergeordnet.</p>
+</div>
+
+
+</body>
+</html>

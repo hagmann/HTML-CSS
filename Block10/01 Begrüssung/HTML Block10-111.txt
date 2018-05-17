@@ -1,0 +1,51 @@
+1.	 Infos
+
+	Einführungspräsentation
+	
+	Prüfungsreglement
+		- Webauftritt 
+		  --> Material sammeln, Abgabe am letzten Kurstag
+		  --> Anforderungen im Prüfungsreglement
+
+
+		- Schriftliche Prüfung (Diplomarbeit)
+		  --> Konzept am Prüfungstag abgeben
+
+		- Elektronische Prüfung
+		  --> Onlinetest (Multiple Choice 60min)
+		  --> Hilfsmittel dürfen verwendet werden (Internet, Bücher, Eigene Notizen)
+
+
+    Adobe Bezugsmöglichkeiten
+    	- Adobe CC 1 Jahr 
+    	  --> https://www.klubschule.ch/Themen/Informatik-Neue-Medien/Adobe-Produkte
+    	- Editor
+
+    Grundlagen HTML
+    	- w3schools.com/html/html5_intro.asp
+    	  - Kodierung
+    	  - Grundstruktur HTML
+    	  - Syntax
+
+    	  --> Dokument anlegen
+
+    Grundlagen CSS
+    	- Was ist CSS? Möglichkeiten aufzeigen
+    	- CSS3 Version
+    	- Syntax
+    	- Interne/Externe Verlinkung
+    	- Zusammenspiel HTML/CSS
+    	- 
+
+    Begriffe
+    	- RWD
+    	- Mobile First / Desktop First
+    	- Progressive Enhancement
+    	- Semantics / semantische Elemente
+    	- Viewport - Sichtbarer Bereich im Browser
+    	- Breakpoint
+    	- JavaScript
+    	- HTML
+    	- PHP
+    	- CSS
+    	- jQuery

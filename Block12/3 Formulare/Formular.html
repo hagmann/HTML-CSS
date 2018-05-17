@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Beispiel4</title>
+</head>
+
+<body>
+
+<h1>Formular</h1>
+
+<form action="mailto:info@hagmann.io" method="post">
+
+
+	<label for="vorname">Vorname</label>
+	<input type="text" id="vorname" name="vorname" placeholder="Vorname"><br><br>
+    
+    <label for="nachname">Nachname</label>
+    <input type="text" id="nachname" name="nachname">
+    <br><br>
+    
+	<label for="password">Kennwort</label>
+    <input type="password" required>
+    <br><br>
+    
+    <label for="mitteilung">Mitteilung</label><br>
+    <textarea name="mitteilung" id="mitteilung" cols="30" rows="10" required></textarea>
+    <br><br>
+    
+    <label for="auswahl">Auswahl</label><br>
+    <input type="radio" name="auswahl" value="Auswahl 1"/> Auswahl 1
+    <input type="radio" name="auswahl" value="Auswahl 2"/> Auswahl 2
+    <input type="radio" name="auswahl" value="Auswahl 3"/> Auswahl 3
+    
+    <br><br>
+    
+    <input type="checkbox" name="checkbox" value="agb-confirmed" required /> AGB akzeptieren
+    
+    <br><br>
+    
+    <select name="devices">
+    	<option value="ipod">iPod</option>
+    	<option value="radio">Radio</option>
+    	<option value="computer">Computer</option>
+    </select>
+    
+    <br><br>
+    
+    <select name="devices" multiple>
+    	<option value="ipod" selected>iPod</option>
+    	<option value="radio">Radio</option>
+    	<option value="computer">Computer</option>
+    </select>
+    
+    <input type="submit" value="Submit">
+</form>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

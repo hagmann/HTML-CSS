@@ -1,0 +1,22 @@
+1. Unterschied Inline/Block
+	- Elemente einordnen
+	- Unterschied erlären
+
+2. Farben repetieren auf Flipchart (in Hex, RGB, Farbnamen):
+	- Weiss (#ffffff, RGB(255,255,255)
+	- Schwarz (#000000, RGB(0,0,0)
+	- Rot (#ff0000, RGB(255,0,0)
+	- Grün (#00ff00, RGB(0,255,0)
+	- Blau (#0000ff, RGB(0,0,255)
+
+	- Helles Grau (#c2c2c2, RGB(194,194,194)
+		(c=12 * 16 = 192 + 2*1 = 2 ==== 194)
+
+
+3. Selektoren repetieren
+	- Select typselektor
+	- Neu: Klassen und IDs
+
+4. Grösseneinheiten
+	- Schriftgrössen: EM, REM
+	- Block-Elemente: PX, %, rem, em

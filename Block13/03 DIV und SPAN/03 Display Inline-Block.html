@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Übung 2 - Block/Inline</title>
+<style>
+	/* Bessere Darstellung für Übung */
+	body {margin-bottom: 400px;}
+	h2 {margin-top: 100px;}
+
+	/* Hervorherbung Block-Elemente */
+	ul,li {background: lightblue;}
+
+	/* Hervorhebung Inline-Elemente */
+	a {background: green;}
+	
+
+
+	/* Anpassung auf Inline, damit Navigation nebeneinander */
+	#beispiel2 li {
+		display: inline;
+	}
+
+
+
+
+	/* Anpassung auf Inline-Block */
+	#beispiel3 li {
+		display: inline-block;
+	}
+
+	/* Padding vergrössert das übergeordnete Block-Element bei Inline-Elementen nicht */
+ 	#beispiel3 li a {
+ 		padding: 20px;
+ 	}
+
+	/* Lösung: Display: Inline-Block; */
+	#beispiel3 li a {
+		display: inline-block;
+	}
+
+
+</style>
+</head>
+
+<body>
+
+<h1>Übung 3 - Inline & Blockelemente umwandeln</h1>
+<p>Dieses Beispiel erklärt die Erstellung einer horizontalen Navigation. (Buch S.366)</p>
+
+<h2>Standard-Auflistung (display: block;)</h2>
+<ul id="beispiel1">
+	<li><a href="">Text1</a></li>
+	<li><a href="">Text1</a></li>
+	<li><a href="">Text2</a></li>
+	<li><a href="">Text3</a></li>
+	<li><a href="">Text4</a></li>
+</ul>
+
+
+<h2>Umwandlung: Inline (display: inline;)</h2>
+<!--<p>Höhenangaben (height) funktionieren für Inline-Elemente nicht. Es braucht eine andere Lösung.</p>-->
+
+
+<ul id="beispiel2">
+	<li><a href="">Text1</a></li>
+	<li><a href="">Text1</a></li>
+	<li><a href="">Text2</a></li>
+	<li><a href="">Text3</a></li>
+	<li><a href="">Text4</a></li>
+</ul>
+
+
+
+<!--
+<h2>Lösung: Inline-Block (display: inline-block;)</h2>
+<p>Inline-Block ist ein Mix zwischen den beiden Varianten. </p>
+
+<ul id="beispiel3">
+	<li><a href="">Text1</a></li>
+	<li><a href="">Text1</a></li>
+	<li><a href="">Text2</a></li>
+	<li><a href="">Text3</a></li>
+	<li><a href="">Text4</a></li>
+</ul>
+-->
+
+</body>
+</html>

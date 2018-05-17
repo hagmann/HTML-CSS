@@ -1,0 +1,4 @@
+- Repetition
+- CSS Klassen, IDs, Selektoren
+- Farben
+- DIV und SPAN

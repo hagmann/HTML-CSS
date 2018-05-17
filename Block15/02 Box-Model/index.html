@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style>
+
+	/* Werte width und height enthalten padding und border, aber nicht margin. */
+
+	div {
+		width: 250px;
+		height: 200px;
+		background: yellow;
+		border: 5px solid orange;
+		padding: 10px 20px;
+		margin: 50px;
+	}
+
+	.box-sizing {
+		box-sizing: border-box;
+	}
+
+
+
+	main {
+		width: 1200px;
+	}
+
+
+	aside {
+		box-sizing: border-box;
+		float: left;
+		width: 300px;
+		background: orange;
+		padding: 20px;
+		border: 5px solid black;
+	}
+
+	section {
+		float: right;
+		background: #666;
+		width: 900px;
+
+		/*Tipp:width: calc(100% - 300px);*/
+	}
+</style>
+<body>
+
+<h1>Box-Modell</h1>
+<ul>
+	<li>HTML Elemente sind eine Art Boxen (display: BLOCK;)</li>
+	<li>Bestehend aus: margin, border, padding, content</li>
+	<li>Folgende Abbildung visualisiert dies:</li>
+</ul>
+
+<img src="box-model.JPG" alt="">
+
+
+
+<h2>Beispiel 1 - Content-Box</h2>
+<p>Block-Element mit folgenden Parametern:</p>
+<ul>
+	<li>Breite: 250px</li>
+	<li>Padding: 40px (rechts und links)</li>
+	<li>Border: 10px (rechts und links)</li>
+</ul>
+
+<div>Inhalt</div>
+
+
+<h2>Beispiel 2 - Border-Box</h2>
+<p>Block-Element mit den Selben Parametern </p>
+<div class="box-sizing">Inhalt</div>
+
+
+<h2>Warum Border-Box sinnvoll ist</h2>
+<main>
+	<aside>Sidebar</aside>
+	<section>Section</section>
+</main>
+
+</body>
+</html>	

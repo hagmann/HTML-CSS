@@ -1,0 +1,95 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Positionierung - Übung 1</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<style>
+
+	body {
+		padding: 80px;
+		font-size: 20px;
+	}
+
+	hr {
+		margin: 80px;
+	}
+
+ 	/* Keine Änderung */
+	#box1 {
+		background: black;
+		width: 200px;
+		height: 200px;
+		position: static;
+	}
+
+	#box2  {
+		background: orange;
+		width: 200px;
+		height: 200px;
+		position: relative;
+		top: 20px;
+		left: 20px;
+	}
+
+	#box3 {
+		background: lightblue;
+		width: 150px;
+		height: 150px;
+		position: fixed;
+		right: 20px;
+		bottom: 20px;
+	}
+
+	#box4 {
+		display: none;
+	}
+
+	.float-left {
+		float: left;
+	}
+
+	.clear {
+		clear: both;
+	}
+
+	.absolute {
+		position: absolute;
+		left: 30px;
+		bottom: 30px;
+	}
+	</style>
+</head>
+<body>
+
+	<h1>Relative und Absolute Positionierung - Übung</h1>
+	<p>Positionierung von Elementen mit:</p>
+	<ul>
+		<li>position: relative;</li>
+		<li>position: absolute;</li>
+		<li>position: static;</li>
+		<li>position: fixed;</li>
+	</ul>
+	<br><br>
+
+
+	<h2>Box und Text ohne Float</h2>
+
+	<!-- Standard-Zustand: static -->
+	<div id="box1"></div>
+
+	<!-- Verschiebung der Box2 ausgehend von der Startposition (20px) -->
+	<div id="box2"></div>
+
+	<!-- Fixed Elemente bleiben auch beim Scrollen an der Selben Position -->
+	<div id="box3"></div>
+    <img class="absolute" src="https://placehold.it/150x150">
+
+	<!-- Box nicht ersichtlich, nur in DOM -->
+    <div id="box4"></div>
+	
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Einbinden von Scripts - Übung 1</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<style>
+
+	body {
+		padding: 80px;
+		font-size: 20px;
+	}
+
+	hr {
+		margin: 80px;
+	}
+
+ 	
+	</style>
+</head>
+<body>
+
+	<h1>Einbinden von Scripts | Übung 1</h1>
+	<p>Einbindung von fremden Inhalten unter Verwendung von:</p>
+	<ul>
+		<li>iframe</li>
+		<li>video</li>
+		<li>audio</li>
+	</ul>
+	<br><br>
+
+
+	<h2>Audio</h2>
+	<audio controls>
+	  <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+	  <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+	</audio>
+
+	<h2>Video</h2>
+	<video width="820" controls>
+	  <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+	  <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+	Your browser does not support the video tag.
+	</video>
+
+	<h2>Youtube</h2>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/JaxVbaFamsE" frameborder="0" allowfullscreen></iframe>
+
+
+	<h2>Google Maps</h2>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d38332.33615791292!2d8.05449417883047!3d47.243012364577986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2sch!4v1489442445241" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+	<h2>jQuery</h2>
+	<p>Integration einer Bibliothek basierend auf JavaScript</p>
+	<ul>
+		<li>Einfache Möglichkeiten, DOM-ELemente auszuwählen und dynamisch anzupassen</li>
+		<li>Animationen, Eigenschaften ändern, Aktionen (Events)</li>
+	</ul>
+
+	<p>Einfache Einbindung mit Script-Element (CDN)</p>
+
+	<xmp><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</xmp>
+
+
+	<button>Klick aktiviert jQuery</button>
+	<p class="hide">Wird bei Klick versteckt</p>
+
+
+	<!-- Weitere Beispiele: http://www.w3my.com/de/jquery/jquery_examples.html -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    /* Hier der jQuery-Code */
+//    alert('Hallo Welt');
+
+	$("button").click(function() {
+		alert('p-Element wird jetzt versteckt');
+		$("p.hide").hide();
+	});
+	
+
+    $(p).hide();
+
+});
+</script>
+</body>
+</html>
